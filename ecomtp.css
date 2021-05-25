@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0:
+}
+html{
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: justify;
+}
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+header{
+    z-index: 100000;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 50px;
+    background-color: black;
+}
+
+.image-size{
+    height: 50px;
+    object-position: left center;
+    
+}  
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    
+}
+#menu li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 13px;
+}
+section{
+    width: 100%;
+    float: left;
+    position: relative;
+    
+}
+#menu li a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 30px;
+    
+}
+button{
+    font-size: 13px;
+    padding: 20px 50px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; 
+    transition: all 0,5s ease 0s;
+}
+button:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 35px;
+
+}
+.image-sizephone{
+    object-fit: contain;
+    height: 100px;
+    object-position: center;
+}
+
+#HOME{
+    ;color: white;
+    height: 100vh;
+    background: url(images/iPhone-13-Pro-removebg.png),black;
+    background-repeat: no-repeat;
+    background-size: 43%;
+    background-position: 50% 100%;
+}
+.title{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 70px;
+}
+.title-heading{
+    font-size: 50px;
+    line-height: 1.07143;
+    letter-spacing: -0.1;
+}
+.title-sub-heading{
+    font-size: 25px;
+    margin-top: -1px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+}
+.title-price{
+    font-size: 14px;
+    color: darkgrey;
+    margin-top: 1.5px ;
+}
+.cta{
+    text-align: center;
+    margin-top:10px ;
+}
+.cta-link{
+    color: dodgerblue;
+    font-size: 19px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.cta-link:nth-child(2){
+    margin-left: 65px;
+}
+.cta-link:hover{
+    border-bottom: 2px solid dodgerblue;
+    
+}
+#DESIGN{
+    outline: 2px solid black;
+    height: 240vh;
+    background: url(images/iphone13design.png),url(images/iohine13colorss.png),black;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 58%,65%;
+    background-position: 50% 31.5%,50% 100%;
+}
+
+.left-sec{
+    color: gray;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 500px;
+    margin-top: 500px;
+}
+.right-sec{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    float: left;
+    font-weight: bold;
+    margin-top: 500px;
+    margin-left: 50px;
+}
+#right p{
+    margin-bottom:20px ;
+}
+#left p{
+    margin-bottom:20px ;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-top: -1px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    margin-top: 60px;
+    text-align: center;
+}
+#PERFORMANCE{
+    outline: 2px solid black;
+    height: 156vh;
+    background:url(images/a15-bionic.jpeg), black;
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position: 50% 55%;
+}
+.right-per{
+    color: gray;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 500px;
+    margin-top: 530px;
+}
+.left-per{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    float: left;
+    font-weight: bold;
+    margin-top: 530px;
+    margin-left: 50px;
+}
+#leftper p{
+    margin-bottom: 5px;
+}
+#rightper p{
+    margin-bottom: 5px;
+}
+#DISPLAY{
+    outline: 2px solid black;
+    height: 155vh;
+    background: url(images/displayy.jpg),black;
+    background-repeat:no-repeat;
+    background-size: 55%;
+    background-position:50% 48% ;
+}
+.right-dis{
+    color: gray;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 500px;
+    margin-top: 450px;
+}
+.left-dis{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    float: left;
+    font-weight: bold;
+    margin-top: 450px;
+    margin-left: 50px;
+}
+#leftdis p{
+    margin-bottom: 5px;
+}
+#rightdis p{
+    margin-bottom: 5px;
+}
+#BATTERY{
+    outline: 2px solid black;
+    height: 158vh;
+    background: url(images/magsafee.png),black;
+    background-repeat:no-repeat;
+    background-size: 43%;
+    background-position: 50% 52%;
+}
+.right-bat{
+    color: gray;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 500px;
+    margin-top: 610px;
+}
+.left-bat{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    float: left;
+    font-weight: bold;
+    margin-top: 610px;
+    margin-left: 50px;
+}
+#leftbat p{
+    margin-bottom: 10px;
+}
+#rightbat p{
+    margin-bottom: 10px;
+}
+#CAMERA{
+    outline: 2px solid black;
+    height: 187vh;
+    background: url(images/camee.png),black;
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position:50% 34% ;
+}
+.right-cam{
+    color: gray;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 500px;
+    margin-top: 500px;
+    margin-right: 10px;
+}
+.left-cam{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    float: left;
+    font-weight: bold;
+    margin-top: 500px;
+    margin-left: 50px;
+}
+#leftcam p{
+    margin-bottom: 10px;
+}
+#rightcam p{
+    margin-bottom: 10px;
+}
+.right-cam2{
+    color: gray;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.left-cam2{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    float: left;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#leftcam2 p{
+    margin-bottom: 10px;
+}
+#rightcam2 p{
+    margin-bottom: 10px;
+}
+#IOS-15{
+    outline: 2px solid black;
+    height: 160vh;
+    background: url(images/ios-15.jpeg),black;
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position:50% 40% ;
+}
+#PRE-ORDER-NOW{
+    height: 47.vh;
+    
+}
+h1{
+    margin-bottom: 15px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: lightgray;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h5{
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 48px;
+    color: black;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: black;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0 48px 0;
+    margin-right: 30px;
+}
+.socials li{
+    margin: 0 10px;
+    
+}
+.socials a{
+    text-decoration: none;
+    
+}
+.socials a i{
+    font-size: 20.6px;
+    transition: color .4s ease;
+    color: black;
+    
+}
+.socials a:hover i{
+    color: dodgerblue;
+}
+
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    color: lightgray
+}
